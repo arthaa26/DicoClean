@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Info - DICOCLEAN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html"><img src="../images/logo.png" alt="DICOCLEAN Logo" class="logo" style="height: 50px;"></a>
+            <div class="profile d-flex align-items-center">
+                <img src="../images/profile.jpg" alt="Profile Picture" class="rounded-circle me-2" style="width: 40px;">
+                <span>Kris Prediansyah <span class="badge bg-warning text-dark">Gold</span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">DICOCLEAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="scan_sampah.html">Scan Sampah</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tips_info.html">Tips & Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="komunitas.html">Komunitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../profil/profil.html">Profil</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-success text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Tips & Info Kebersihan</h1>
+            <p class="lead">Dapatkan berbagai informasi berguna untuk menjaga kebersihan dan lingkungan yang lebih sehat.</p>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Artikel Terbaru</h2>
+        <div class="row">
+            <!-- Kartu Artikel 1 dengan Modal Pop-up -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <a href="https://www.youtube.com/watch?v=rVUMFGdOIjE&t=8s" target="_blank">
+                        <img src="https://img.youtube.com/vi/rVUMFGdOIjE/0.jpg" class="card-img-top" alt="Tips 1">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Cara Mudah Mengurangi Penggunaan Plastik</h5>
+                        <p class="card-text">Pelajari cara-cara sederhana untuk mengurangi penggunaan plastik dalam kehidupan sehari-hari.</p>
+                        <!-- Tombol untuk membuka modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalArtikel1">Baca Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kartu Artikel 2 dengan Modal Pop-up -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <a href="https://www.youtube.com/watch?v=ts0DYCU5cM8" target="_blank">
+                        <img src="https://img.youtube.com/vi/ts0DYCU5cM8/0.jpg" class="card-img-top" alt="Tips 2">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Manfaat Mendaur Ulang Sampah di Rumah</h5>
+                        <p class="card-text">Daur ulang sampah dapat dimulai dari rumah Anda. Temukan manfaatnya bagi lingkungan.</p>
+                        <!-- Tombol untuk membuka modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalArtikel2">Baca Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kartu Artikel 3 dengan Modal Pop-up -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <a href="https://www.youtube.com/watch?v=OEpx17Gkie0" target="_blank">
+                        <img src="https://img.youtube.com/vi/OEpx17Gkie0/0.jpg" class="card-img-top" alt="Tips 3">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Tips Menjaga Kebersihan Lingkungan</h5>
+                        <p class="card-text">Panduan praktis untuk menjaga kebersihan lingkungan sekitar Anda setiap hari.</p>
+                        <!-- Tombol untuk membuka modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalArtikel3">Baca Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Pop-up untuk Artikel 1 -->
+    <div class="modal fade" id="modalArtikel1" tabindex="-1" aria-labelledby="modalLabelArtikel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtikel1">Cara Mudah Mengurangi Penggunaan Plastik</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Penjelasan lebih detail mengenai cara-cara sederhana yang dapat dilakukan setiap hari untuk mengurangi penggunaan plastik dalam kehidupan sehari-hari, termasuk penggunaan tas kain, botol minum, dan peralatan yang ramah lingkungan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-up untuk Artikel 2 -->
+    <div class="modal fade" id="modalArtikel2" tabindex="-1" aria-labelledby="modalLabelArtikel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtikel2">Manfaat Mendaur Ulang Sampah di Rumah</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Mendaur ulang sampah di rumah adalah langkah besar dalam melestarikan lingkungan. Temukan berbagai manfaat, seperti mengurangi polusi, menghemat energi, dan memberikan nilai baru pada barang-barang bekas di rumah Anda.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-up untuk Artikel 3 -->
+    <div class="modal fade" id="modalArtikel3" tabindex="-1" aria-labelledby="modalLabelArtikel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtikel3">Tips Menjaga Kebersihan Lingkungan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Panduan untuk menjaga kebersihan lingkungan, mulai dari mengurangi sampah plastik, melakukan pemisahan sampah organik dan anorganik, hingga memulai kegiatan bersih-bersih di lingkungan sekitar.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

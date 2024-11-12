@@ -1,0 +1,24 @@
+/* Gaya tambahan untuk logo */
+.logo {
+    height: 50px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 40px 0;
+}
+
+/* Kartu berita */
+.news-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.news-section .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
